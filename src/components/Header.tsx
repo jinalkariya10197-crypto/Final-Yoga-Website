@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
-import logoDark from "@/assets/hoy-logo-dark.png.asset.json";
+import logoDark from "../assets2/hoy-logo-dark.png";
 import { links } from "./ui-kit";
 
 export function Header() {
@@ -25,7 +25,7 @@ export function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logoDark.url} alt="House of Yoga" className="h-14 w-auto" width={56} height={56} />
+          <img src={logoDark} alt="House of Yoga" className="h-14 w-auto" width={56} height={56} />
           <span className="hidden text-[0.8rem] uppercase tracking-[0.32em] text-foreground sm:block">
             House of Yoga
           </span>

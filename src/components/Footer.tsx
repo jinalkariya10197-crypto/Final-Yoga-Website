@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logoDark from "../assets2/logo-dark.png";
+import logoDark from "../assets2/hoy-logo-dark.png";
 import { links } from "./ui-kit";
 
 export function Footer() {

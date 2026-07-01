@@ -2,8 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { WhatsAppLink } from "@/components/ui-kit";
-import corporateImg from "@/assets/wp-corporate-real.jpg.asset.json";
-import schoolImg from "@/assets/wp-school-real.jpg.asset.json";
+import corporateImg from "../assets2/wp-corporate-real.jpg";
+import schoolImg from "../assets2/wp-school-real.jpg";
 
 export const Route = createFileRoute("/wellness")({
   head: () => ({

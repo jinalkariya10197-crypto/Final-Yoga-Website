@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { WhatsAppLink } from "@/components/ui-kit";
-import practiceImg from "@/assets/practice.jpg";
+import practiceImg from "../assets2/practice-DuVSeTMF.jpg";
 
 export const Route = createFileRoute("/practice")({
   head: () => ({

@@ -2,8 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { CTALink } from "@/components/ui-kit";
-import natureImg from "@/assets/nature.jpg";
-import teacherImg from "@/assets/teacher.jpg";
+import natureImg from "../assets2/nature-BNBal8dX.jpg";
+import teacherImg from "../assets2/teacher-BX2dnIgC.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({

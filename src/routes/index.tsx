@@ -3,20 +3,20 @@ import { useState, useEffect } from "react";
 import { Layout } from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { CTALink, WhatsAppLink } from "@/components/ui-kit";
-import heroAsset from "@/assets/hero-hoy.jpg.asset.json";
-import natureImg from "@/assets/nature.jpg";
-import teacherImg from "@/assets/teacher.jpg";
-import ctaAsset from "@/assets/cta-trikonasana.jpg.asset.json";
-import wpCorporateAsset from "@/assets/wp-corporate-real.jpg.asset.json";
-import wpSchoolAsset from "@/assets/wp-school-real.jpg.asset.json";
-const heroImg = heroAsset.url;
-const practiceImg = ctaAsset.url;
-import poseTree from "@/assets/pose-tree.png.asset.json";
-import posePranayama from "@/assets/pose-pranayama.png.asset.json";
-import poseTrataka from "@/assets/pose-trataka.png.asset.json";
-import poseMeditation from "@/assets/pose-meditation.png.asset.json";
-import posePhilosophy from "@/assets/pose-philosophy.png.asset.json";
-import poseCommunity from "@/assets/pose-community.png.asset.json";
+import heroAsset from "../assets2/hero-hoy.jpg";
+import natureImg from "../assets2/nature-BNBal8dX.jpg";
+import teacherImg from "../assets2/teacher-BX2dnIgC.jpg";
+import ctaAsset from "../assets2/cta-trikonasana.jpg";
+import wpCorporateAsset from "../assets2/wp-corporate-real.jpg";
+import wpSchoolAsset from "../assets2/wp-school-real.jpg";
+const heroImg = heroAsset;
+const practiceImg = ctaAsset;
+import poseTree from "../assets2/pose-tree.png";
+import posePranayama from "../assets2/pose-pranayama.png";
+import poseTrataka from "../assets2/pose-trataka.png";
+import poseMeditation from "../assets2/pose-meditation.png";
+import posePhilosophy from "../assets2/pose-philosophy.png";
+import poseCommunity from "../assets2/pose-community.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({

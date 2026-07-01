@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Layout, PageHero } from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { WhatsAppLink } from "@/components/ui-kit";
-import natureImg from "@/assets/nature.jpg";
+import natureImg from "../assets2/nature-BNBal8dX.jpg";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({

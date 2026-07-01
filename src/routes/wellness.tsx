@@ -43,7 +43,7 @@ function Wellness() {
         eyebrow="Wellness Programs"
         title="Calm, brought to your community."
         intro="Customized yoga and wellbeing programs, thoughtfully designed around the goals of your organization."
-        image={corporateImg.url}
+        image={corporateImg}
       />
 
       <section className="mx-auto max-w-3xl px-6 py-24 lg:py-32 text-center">
@@ -73,7 +73,7 @@ function Wellness() {
 
       <section className="mx-auto grid max-w-7xl items-center gap-16 px-6 py-24 lg:grid-cols-2 lg:px-10 lg:py-32">
         <Reveal className="overflow-hidden rounded-[2rem]">
-          <img src={schoolImg.url} alt="A calm moment of stillness" className="h-full w-full object-cover" loading="lazy" width={1400} height={1000} />
+          <img src={schoolImg} alt="A calm moment of stillness" className="h-full w-full object-cover" loading="lazy" width={1400} height={1000} />
         </Reveal>
         <Reveal delay={120}>
           <p className="eyebrow">What programs may include</p>

@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 
-const WHATSAPP_URL = "https://wa.me/?text=Hi%20House%20of%20Yoga%2C%20I%27d%20like%20to%20join%20a%20free%20trial%20class.";
+const WHATSAPP_URL = "https://wa.me/919372903445?text=Hi%20House%20of%20Yoga%2C%20I%27d%20like%20to%20join%20a%20free%20trial%20class.";
 
 export const links = [
   { to: "/", label: "Home" },

@@ -314,33 +314,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 8 — pricing */}
-      <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">
-        <Reveal className="text-center">
-          <h2 className="text-4xl leading-tight md:text-5xl">Pricing</h2>
-          <p className="mt-5 text-muted-foreground">Offline &amp; Online Classes</p>
-        </Reveal>
-        <div className="mx-auto mt-14 grid max-w-3xl gap-8 sm:grid-cols-2">
-          <Reveal className="rounded-[2rem] border border-border p-10 text-center">
-            <p className="eyebrow">3 Days / Week</p>
-            <p className="mt-6 font-serif text-5xl text-foreground">₹2,000</p>
-            <p className="mt-2 text-sm text-muted-foreground">per month</p>
-          </Reveal>
-          <Reveal delay={120} className="rounded-[2rem] border border-primary/40 bg-card p-10 text-center">
-            <p className="eyebrow">5 Days / Week</p>
-            <p className="mt-6 font-serif text-5xl text-foreground">₹2,500</p>
-            <p className="mt-2 text-sm text-muted-foreground">per month</p>
-          </Reveal>
-        </div>
-        <Reveal className="mt-8 text-center text-sm text-muted-foreground">
-          International students are warmly welcome — please{" "}
-          <a href="mailto:contact@thehouseofyoga.in" className="text-primary underline-offset-4 hover:underline">
-            contact us
-          </a>{" "}
-          for international pricing.
-        </Reveal>
-      </section>
-
       {/* Section 9 — testimonials */}
       <section className="bg-card">
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">

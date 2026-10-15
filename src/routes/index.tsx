@@ -48,6 +48,18 @@ const testimonials = [
     name: "Bansari Javani",
     source: "Google Review",
   },
+  {
+    quote:
+      "I joined this yoga class a month ago, and my experience has been wonderful so far. My yoga teacher Jinal is very kind, supportive, patient, and encouraging. She explains each asana properly and makes the sessions comfortable and enjoyable. Her positive attitude and dedication make me look forward to every class.\n\nI’m really happy to have found such a lovely teacher and look forward to continuing my yoga journey with her. Highly recommended for anyone looking to improve their health, flexibility, and overall well-being! 🧘‍♀️",
+    name: "Shruti Pare",
+    source: "Google Review",
+  },
+  {
+    quote:
+      "I joined the yoga classes almost a month ago, and the experience has been nothing short of amazing. The teacher is very kind, understanding, and knowledgeable. Each asana is explained properly and clearly.\n\nApart from asanas, we are also taught anulom-vilom, mantra chanting, and meditation.\n\nEvery session ends with a peace mantra, which feels very gentle and soothing, leaving me with a sense of calmness and inner peace.",
+    name: "Tushar Kumar Raj",
+    source: "Google Review",
+  },
 ];
 
 const wellnessImages = [
